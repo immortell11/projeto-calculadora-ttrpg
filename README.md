@@ -12,5 +12,7 @@ GitHub
 # Funcionalidades
 
 # Como executar
+(falar sobre as permissões do terminal linux e o comando necessário para executá-lo)
 
 # Explicação do código
+(explicações sobre os cálculos, o que cada valor significa, interações entre atributos e classes, explicar o que são classes, de onde viriam os números, inserir uma guia com níveis, pv base...)
