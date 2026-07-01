@@ -9,10 +9,20 @@ Shell Script (Bash)
 Linux (Ubuntu)
 GitHub
 
-# Funcionalidades
-
-# Como executar
-(falar sobre as permissões do terminal linux e o comando necessário para executá-lo)
+# Como executar a calculadora
+1. Abra o terminal Linux
+2. Vá até a pasta onde o projeto está e conceda a permissão de execução para o arquivo: chmod 744 executarcalc.sh
+3. Para executar, digite o seguinte comando: ./executarcalc.sh
 
 # Explicação do código
+(PLACEHOLDER)
+O programa solicita dois números ao usuário e apresenta um menu com as operações disponíveis.
+
+Cada operação matemática foi implementada em uma função específica, tornando o código mais organizado, legível e fácil de manter.
+
+Após a execução do cálculo, o programa pergunta ao usuário se deseja realizar uma nova operação. Caso a resposta seja positiva, a calculadora continua em execução utilizando um laço de repetição (while). Caso contrário, o programa é encerrado.
+
+Durante o desenvolvimento foram aplicados conceitos fundamentais de programação, como:
+
 (explicações sobre os cálculos, o que cada valor significa, interações entre atributos e classes, explicar o que são classes, de onde viriam os números, inserir uma guia com níveis, pv base...)
+(adicionar um txt com os comandos do código)
