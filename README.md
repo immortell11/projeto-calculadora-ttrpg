@@ -4,7 +4,7 @@ Uma calculadora desenvolvida em Python com script executável em Shell Script. E
 Se trata de uma calculadora que realiza operações matemáticas para criar as estatísticas de um personagem de um RPG de mesa (jogo de tabuleiro) em um determinado sistema de fantasia. Ela calcula estatísticas como pontos de vida, pontos de energia, magias e habilidades.
 
 # Tecnologias utilizadas
-Python 3
+'- Python 3
 Shell Script (Bash)
 Linux (Ubuntu)
 GitHub
@@ -15,14 +15,14 @@ GitHub
 3. Para executar, digite o seguinte comando: ./executarcalc.sh
 
 # Explicação do código
-(PLACEHOLDER)
-O programa solicita dois números ao usuário e apresenta um menu com as operações disponíveis.
-
-Cada operação matemática foi implementada em uma função específica, tornando o código mais organizado, legível e fácil de manter.
-
-Após a execução do cálculo, o programa pergunta ao usuário se deseja realizar uma nova operação. Caso a resposta seja positiva, a calculadora continua em execução utilizando um laço de repetição (while). Caso contrário, o programa é encerrado.
-
-Durante o desenvolvimento foram aplicados conceitos fundamentais de programação, como:
-
-(explicações sobre os cálculos, o que cada valor significa, interações entre atributos e classes, explicar o que são classes, de onde viriam os números, inserir uma guia com níveis, pv base...)
 (adicionar um txt com os comandos do código)
+
+Primeiramente, o programa pede pelo valor dos pontos de vida do personagem, que normalmente variam entre 10 e 18. Após isso, ele pede pelo valor de vigor, que é um número somado aos pontos de vida toda vez que um personagem sobe de nível.
+
+Finalmente, ele pede pelo nível do personagem, que vai de 1 a 20. Nessa operação matemática, o nível funciona como um multiplicador para o vigor. E então, a calculadora realiza a operação e te entrega o valor final dos pontos de vida do personagem.
+
+O processo se repete para os seus pontos de energia, que substitui os pontos de vida, e para o fôlego, que substitui o vigor, com o mesmo cálculo.
+
+As próximas informações disponíveis são as magias e habilidades do seu personagem. Os cálculos são baseados no seu nível, cujo valor foi pedido anteriormente na operação dos pontos de vida.
+
+Ao final da geração das estatísticas, o código te dá a possibildade de calcular outro personagem. Se a resposta for sim, todo o processo recomeça e o programa continua sendo executado. Do contrário, o programa se encerra.
