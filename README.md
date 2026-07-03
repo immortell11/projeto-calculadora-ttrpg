@@ -4,19 +4,17 @@ Uma calculadora desenvolvida em Python com script executável em Shell Script. E
 Se trata de uma calculadora que realiza operações matemáticas para criar as estatísticas de um personagem de um RPG de mesa (jogo de tabuleiro) em um determinado sistema de fantasia. Ela calcula estatísticas como pontos de vida, pontos de energia, magias e habilidades.
 
 # Tecnologias utilizadas
-'- Python 3
-Shell Script (Bash)
-Linux (Ubuntu)
-GitHub
+- Python 3
+- Shell Script (Bash)
+- Linux (Ubuntu)
+- GitHub
 
 # Como executar a calculadora
-1. Abra o terminal Linux
+1. Abra o terminal Linux.
 2. Vá até a pasta onde o projeto está e conceda a permissão de execução para o arquivo: chmod 744 executarcalc.sh
-3. Para executar, digite o seguinte comando: ./executarcalc.sh
+3. Para executar o programa, digite o seguinte comando: ./executarcalc.sh
 
 # Explicação do código
-(adicionar um txt com os comandos do código)
-
 Primeiramente, o programa pede pelo valor dos pontos de vida do personagem, que normalmente variam entre 10 e 18. Após isso, ele pede pelo valor de vigor, que é um número somado aos pontos de vida toda vez que um personagem sobe de nível.
 
 Finalmente, ele pede pelo nível do personagem, que vai de 1 a 20. Nessa operação matemática, o nível funciona como um multiplicador para o vigor. E então, a calculadora realiza a operação e te entrega o valor final dos pontos de vida do personagem.
