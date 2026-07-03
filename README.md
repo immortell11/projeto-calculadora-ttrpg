@@ -3,11 +3,9 @@ Uma calculadora desenvolvida em Python com script executável em Shell Script. E
 
 Se trata de uma calculadora que realiza operações matemáticas para criar as estatísticas de um personagem de um RPG de mesa (jogo de tabuleiro) em um determinado sistema de fantasia. Ela calcula estatísticas como pontos de vida, pontos de energia, magias e habilidades.
 
-# Tecnologias utilizadas
-- Python 3
-- Shell Script (Bash)
-- Linux (Ubuntu)
-- GitHub
+# Requisitos
+- Acesso à um terminal Linux;
+- (para edição do programa ou script) conhecimentos em Python 3 e Shell Script (Bash)
 
 # Como executar a calculadora
 1. Abra o terminal Linux.
