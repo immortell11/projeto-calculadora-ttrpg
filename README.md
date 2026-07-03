@@ -5,7 +5,7 @@ Se trata de uma calculadora que realiza operações matemáticas para criar as e
 
 # Requisitos
 - Acesso à um terminal Linux;
-- (para edição do programa ou script) conhecimentos em Python 3 e Shell Script (Bash).
+- (Para edição do programa ou script) Conhecimentos em Python 3 e Shell Script (Bash).
 
 # Como executar a calculadora
 1. Abra o terminal Linux.
